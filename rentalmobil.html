@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rental Mobil Terbaik</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+            color: #333;
+        }
+        header {
+            background: #007bff;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #0056b3;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 20px;
+        }
+        .hero {
+            background: url('https://via.placeholder.com/1920x500') no-repeat center center/cover;
+            height: 300px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+        }
+        .hero h1 {
+            font-size: 2.5rem;
+        }
+        .car-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .car-item {
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            width: 30%;
+            padding: 15px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .car-item img {
+            width: 100%;
+            border-radius: 5px;
+        }
+        .car-item h3 {
+            margin: 10px 0;
+        }
+        .testimonials, .contact-info {
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+        .testimonial-item {
+            margin-bottom: 15px;
+        }
+        footer {
+            text-align: center;
+            background: #007bff;
+            color: white;
+            padding: 10px 0;
+        }
+        form input, form select, form textarea, form button {
+            display: block;
+            margin: 10px 0;
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        form button {
+            background: #007bff;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        form button:hover {
+            background: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Rental Mobil Aman dan Terjangkau</h1>
+    </header>
+    <nav>
+        <a href="#about">Tentang Kami</a>
+        <a href="#cars">Mobil Kami</a>
+        <a href="#testimonials">Testimoni</a>
+        <a href="#contact">Kontak</a>
+    </nav>
+    <div class="hero">
+        <h1>Sewa Mobil Mudah dan Cepat</h1>
+    </div>
+    <section id="about">
+        <h2>Tentang Kami</h2>
+        <p>Kami adalah perusahaan rental mobil terpercaya yang berkomitmen untuk menyediakan kendaraan terbaik untuk kebutuhan Anda, baik untuk liburan keluarga maupun perjalanan bisnis.</p>
+    </section>
+    <section id="cars">
+        <h2>Daftar Mobil</h2>
+        <div class="car-list">
+            <div class="car-item">
+                <img src="veloz.jpg" alt="Toyota Avanza">
+                <h3>Toyota Avanza</h3>
+                <p>Harga: Rp 300.000/hari</p>
+                <p>Kapasitas: 7 orang</p>
+            </div>
+            <div class="car-item">
+                <img src="Brio.jpg" alt="Honda Brio">
+                <h3>Honda Brio</h3>
+                <p>Harga: Rp 250.000/hari</p>
+                <p>Kapasitas: 4 orang</p>
+            </div>
+            <div class="car-item">
+                <img src="Pajero.jpg" alt="Mitsubishi Pajero">
+                <h3>Mitsubishi Pajero</h3>
+                <p>Harga: Rp 500.000/hari</p>
+                <p>Kapasitas: 7 orang</p>
+            </div>
+            <div class="car-item">
+                <img src="Inova.png" alt="Toyota Innova">
+                <h3>Toyota Innova</h3>
+                <p>Harga: Rp 400.000/hari</p>
+                <p>Kapasitas: 6 orang</p>
+            </div>
+            <div class="car-item">
+                <img src="ertiga.jpg" alt="Suzuki Ertiga">
+                <h3>Suzuki Ertiga</h3>
+                <p>Harga: Rp 280.000/hari</p>
+                <p>Kapasitas: 7 orang</p>
+            </div>
+        </div>
+    </section>
+    <section id="testimonials">
+        <h2>Testimoni Pelanggan</h2>
+        <div class="testimonials">
+            <div class="testimonial-item">
+                <p>"Pelayanan sangat baik, mobil bersih dan nyaman!" - Andi</p>
+            </div>
+            <div class="testimonial-item">
+                <p>"Proses pemesanan mudah dan cepat. Pasti sewa di sini lagi." - Siti</p>
+            </div>
+            <div class="testimonial-item">
+                <p>"Harga terjangkau dan mobil dalam kondisi prima." - Budi</p>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <h2>Hubungi Kami</h2>
+        <div class="contact-info">
+            <p>Alamat: Jl. Merdeka No.123, Jakarta</p>
+            <p>Telepon: 0812-3456-7890</p>
+            <p>Email: rentalmobil@example.com</p>
+            <div class="car-item">
+                <img src="OWNER.jpeg" alt="owner">
+                <h3>OWNER RENTAL</h3>
+                <p>Evan Putra F</p>
+        </div>
+        <form>
+            <label for="name">Nama:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="car">Pilih Mobil:</label>
+            <select id="car" name="car" required>
+                <option value="avanza">Toyota Avanza</option>
+                <option value="brio">Honda Brio</option>
+                <option value="pajero">Mitsubishi Pajero</option>
+                <option value="innova">Toyota Innova</option>
+                <option value="ertiga">Suzuki Ertiga</option>
+            </select>
+            <label for="date">Tanggal Sewa:</label>
+            <input type="date" id="date" name="date" required>
+            <label for="message">Pesan (opsional):</label>
+            <textarea id="message" name="message" rows="4"></textarea>
+            <button type="submit">Kirim Pesanan</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2024 Rental Mobil Terbaik. Semua Hak Dilindungi.</p>
+    </footer>
+</body>
+</html>                         
